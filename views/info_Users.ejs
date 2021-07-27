@@ -1,0 +1,16 @@
+<h1>Details of User</h1>
+
+<div>
+    <p>
+        <% user.forEach(function(uss){ %>
+            <li><strong>Name: </strong> <%= uss.name %></li>
+            <li><strong>Date of Birth: </strong> <%= uss.DOB %></li>
+            <li><strong>Blood Group: </strong> <%= uss.B_G %></li>
+            <li><strong>Vaccination Status: </strong> <%= uss.Vac_Stat %></li>
+        <% }); %>
+    </p>
+</div>
+
+<div>
+    <a href="/">View all users</a>
+</div>

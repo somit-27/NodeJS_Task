@@ -1,0 +1,10 @@
+<h1>Find your Vaccination Status</h1>
+<div>
+<% user.forEach(function(us){ %>
+    <li><a href= <%=us.url%> ><%= us.name %></a></li>
+<% }); %>
+</div>
+
+<div>
+<a href="/newuser">Add a user</a>
+</div>
